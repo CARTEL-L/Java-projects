@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class TaskSixteen{
+    public void main(String[] args){
+
+        Scanner inputCollector = new Scanner(System.in);
+
+        System.out.print("Enter number: ");
+
+        int number = inputCollector.nextInt();
+
+        int product = number * 5;
+
+        System.out.printf("The product is %d%n", product);
+
+    }
+
+}
